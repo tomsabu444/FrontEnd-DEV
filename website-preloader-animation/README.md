@@ -4,13 +4,13 @@
 
 Hey there! We've got an awesome website preloader animation just for you. It's super cool and will make your website look even more amazing. Check it out now!
 
- <a href="https://tomsabu444.github.io/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
+ <a href="https://tomsabu444.github.io/FrontEnd-DEV/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
  
  </div>
  
 ## Demo
 
- <a href="https://tomsabu444.github.io/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
+ <a href="https://tomsabu444.github.io/FrontEnd-DEV/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
 
 <div align="center">
 
