@@ -1,0 +1,165 @@
+body {
+  cursor: auto;
+}
+
+.oopss {
+  background: transparent;
+  position: sticky;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 1.5em;
+  z-index: 1;
+}
+
+.oopss .error-text {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Shabnam", Tahoma, sans-serif;
+  color: #000;
+
+}
+
+.oopss .error-text img {
+  margin-top: -20px;
+  margin: 10px auto 20px;
+  height: 342px;
+  margin-bottom: auto;
+}
+
+.oopss .error-text h1 {
+  margin-top: auto;
+  position: static;
+  font-size: 3.3em;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.oopss .error-text p.p-a {
+  font-size: 20px;
+  margin: 30px 0 15px 0;
+  padding: 0 200px 0px;
+  text-align: center;
+
+}
+
+.oopss .error-text p.p-b {
+  font-size: 35px;
+}
+
+.oopss .audio-control {
+  cursor: none;
+
+  /*  margin-bottom: 400px;
+    
+    margin-left: 700px; */
+  margin-top: 2%;
+
+  pointer-events: auto;
+
+
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+
+
+
+}
+
+/*.oopss .audio-control #audio{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+audio:hover,
+audio:focus,
+audio:active {
+  transform: scale(1.1);
+}
+
+
+/* Responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+
+  /* Styles for smaller screens (e.g., tablets) */
+  .oopss .audio-control {
+    padding: 10px;
+  }
+
+  .oopss .error-text h1 {
+    margin-top: auto;
+    font-size: 100px;
+  }
+
+  .oopss .error-text p.p-b {
+    font-size: 25px;
+    
+  }
+  .oopss .error-text p.p-a {
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+    padding: 0 20px 0px;
+    text-align: center;
+  
+  }
+  .oopss .error-text img {
+    margin-top: -20px;
+    margin: 10px auto 20px;
+    height: 342px;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 576px) { 
+
+  /* Styles for even smaller screens (e.g., smartphones) */
+  .oopss .audio-control {
+    padding: 10px;
+  }
+
+  audio:hover,
+  audio:focus,
+  audio:active {
+    transform: scale(1.1);
+  }
+
+  .oopss .error-text h1 {
+    font-size: 70px;
+  }
+
+  .oopss .error-text p.p-b {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .oopss .error-text p.p-a {
+    font-size: 19px;
+    margin: auto;
+    padding: 0 20px 0px;
+    text-align: center;
+  
+  }
+  .oopss .error-text img {
+    margin-top: -20px;
+    margin: 1px auto 20px;
+    height: 200px;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .oopss .error-text h1 {
+    font-size: 50px;
+  }
+  .oopss .error-text p.p-b {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+
