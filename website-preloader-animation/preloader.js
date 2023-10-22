@@ -10,6 +10,6 @@ function preloader_inner() {
       $('.preloader_inner').addClass('hide')
       $('.preloader').addClass('hide')
     }
-  }, 10);
+  }, 30); // change time
 }
 preloader_inner();

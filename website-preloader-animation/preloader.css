@@ -12,6 +12,7 @@
 
 body {
     overflow: hidden;
+
 }
 
 
@@ -35,7 +36,7 @@ Preloader
 
     content: 'Loading';
     position: absolute;
-    font-size: 12em;
+    font-size: 10em;
     font-weight: 900;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.03);
@@ -44,7 +45,7 @@ Preloader
 .preloader_inner {
     position: relative;
     color: #fff;
-    font-size: 16em;
+    font-size: 11em;
     font-weight: 700;
     z-index: 1;
 }
@@ -62,45 +63,70 @@ Preloader
     pointer-events: none;
 }
 
+@media (min-width: 1024px) {
+
+    .preloader:before {
+        font-size: 12em;
+    }
+
+    .preloader_inner {
+        font-size: 16em;
+
+    }
+}
+
 /*-----------------------------------*\
 Preloader
 \*-----------------------------------*/
 
-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    min-height: 10vh;
-}
 
-.nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li {
-    font-weight: bolder;
-    padding-left: 10rem;
-    font-size: 1.2rem;
-}
-
-
-.landing {
-    background-image: url("subtle-prism.svg");
-    min-height: 100vh;
+header {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: auto;
+    height: 100vh; 
+    background: url(subtle-prism.svg) no-repeat;
     background-size: cover;
-    padding: 0rem 5rem;
 }
 
-#logo {
-    font-weight: bolder;
-    font-size: 2rem;
+
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+/* Style the header title */
+h1 {
+    font-size: 24px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+}
+
+/* Change link color on hover */
+nav a:hover {
+    color: #ff9900; /* Change to your preferred link hover color */
 }
