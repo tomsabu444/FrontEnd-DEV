@@ -8,9 +8,9 @@ Hey there! We've got an awesome website preloader animation just for you. It's s
  
  </div>
  
-## Demo
+## Demo   <a href="https://tomsabu444.github.io/FrontEnd-DEV/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
 
- <a href="https://tomsabu444.github.io/FrontEnd-DEV/website-preloader-animation/"><strong>➥ Live Demo</strong></a> 
+
 
 <div align="center">
 
