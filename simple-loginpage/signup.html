@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><!-- forces IE to play nice -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<title>SIGNUP PAGE</title>
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+	<section>
+		<div class="signup-box">
+			<form action="signup.php" method="post">
+				<h3>Register</h3>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="people"></ion-icon></span>
+					<input type="text" id="firstName" name="firstName" required>
+					<label>First Name</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="people"></ion-icon></span>
+					<input type="text" id="lastName" name="lastName" required>
+					<label>Last Name</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="mail"></ion-icon></span>
+					<input type="email" id="email" name="email" required>
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+					<input type="password" id="password" name="password" required>
+					<label>Password</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="call"></ion-icon></span>
+					<input type="number" id="number" name="number" required>
+					<label>Phone Number</label>
+				</div>
+				<!--<div class="remember-forgot">
+					<label><input type="checkbox"> Remember me</label>
+					<a href="#">Forgot password?</a>
+				</div>-->
+				<button type="submit">Register</button>
+
+				<div class="register-link">
+					<p>Already have an account ? <a href="./index.html">Login</a></p>
+				</div>
+			</form>
+		</div>
+	</section>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
