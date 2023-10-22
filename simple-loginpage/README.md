@@ -1,6 +1,6 @@
 <div align="center">
 
-# VERSION 1 - Personal portfolio
+# simple-loginpage
 
 Hey there! We've got a super easy login/signup page for you. It's quick and simple, so you can get started right away. Give it a try! responsive for all devices, built using HTML, CSS, and JavaScript , PHP.
 
@@ -8,9 +8,8 @@ Hey there! We've got a super easy login/signup page for you. It's quick and simp
  
  </div>
  
-## Demo
+## Demo <a href="https://tomsabu444.github.io/FrontEnd-DEV/simple-loginpage/"><strong>➥ Live Demo</strong></a> 
 
- <a href="https://tomsabu444.github.io/FrontEnd-DEV/simple-loginpage/"><strong>➥ Live Demo</strong></a> 
 
 <div align="center">
 
