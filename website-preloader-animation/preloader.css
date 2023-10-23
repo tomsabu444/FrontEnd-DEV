@@ -84,7 +84,7 @@ header {
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    width: auto;
+    
     height: 100vh; 
     background: url(subtle-prism.svg) no-repeat;
     background-size: cover;
@@ -95,18 +95,20 @@ header {
 
 .container {
     max-width: 100%;
+    height: auto;
+    min-height: 8vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* Style the header title */
 h1 {
     font-size: 24px;
-    color: #ffffff;
-    padding-left: 10px;
+    color: #000000;
+    padding-left: 12px;
 }
 
 /* Style the navigation menu */
@@ -123,7 +125,7 @@ nav li {
 /* Style navigation links */
 nav a {
     text-decoration: none;
-    color: #fff; /* Link color */
+    color: #000000; /* Link color */
 }
 
 /* Change link color on hover */
